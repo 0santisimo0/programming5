@@ -57,6 +57,7 @@ printBaseElements ((x,y):xs) = show x ++ printBaseElements xs
 
 
 histograma :: [Int] -> String
-histograma xs = reverse $ printBaseElements (storeOcurrences . sortArray $ xs) ++ "\n" ++ iterateToPrint (getMaxOccurence (storeOcurrences . sortArray $ xs)) (storeOcurrences . sortArray $ xs)
+histograma xs = reverse $ printBaseElements (storeOcurrences . sortArray $ xs) ++ "\n"
+ ++ iterateToPrint (getMaxOccurence (storeOcurrences . sortArray $ xs)) (storeOcurrences . sortArray $ xs)
 
 
