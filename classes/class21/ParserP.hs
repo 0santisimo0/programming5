@@ -17,9 +17,6 @@ term :: String -> (Expr, String)
 term ('(':xs) = let (expr', rest') = expr xs
                 in (expr', tail rest')
 
--- term (x:'*':xs) = let (expr', rest') = expr ( x:'*':xs)
---                 in (expr', tail rest')
-
 term input = number input
 
 
@@ -87,7 +84,7 @@ main = do
   let result = parseAndEval case2
   let resultMod = round result `mod` (10^9 + 7)
 
-  let case3 = "4/(2-4)/(2+8)";
+  let case3 = "4/((2-4)/(2+8))";
   let result1 = parseAndEval case3
   let resultMod1 = round result1 `mod` (10^9 + 7)
 
@@ -100,4 +97,4 @@ main = do
 
   putStrLn $ "Expression: " ++ case2 ++ " Result: " ++ show resultMod 
 
-  -- putStrLn $ "Expression: " ++ case3 ++ " Result2: " ++ show resultMod1
+  putStrLn $ "Expression: " ++ case3 ++ " Result2: " ++ show resultMod1
