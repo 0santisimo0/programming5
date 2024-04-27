@@ -1,0 +1,84 @@
+Slides ::= Slide
+
+Slide ::= BoldySlide '---'
+
+BoldySlide ::= Title? Body
+
+Title = '!' Space Paragraph
+
+Body ::= '{' MarckdownBlock '}'
+
+MarckdownBlock = Paragraph 
+               | Header 
+
+Paragraph = String { String }
+Header = "#" H1 [ "#" ]
+H1 = "#" H2 [ "#" ] | Paragraph
+H2 = "#" H3 [ "#" ] | Paragraph
+H3 = "#" H4 [ "#" ] | Paragraph
+Table
+Style
+Image
+
+
+Table = open "<" Rows ">" close;
+    Row = open "<<" Columns ">>" close
+
+Style = "+"; 
+    CSS style unique for each slide customizable
+
+Image = "%";
+    Image passing a "link" or url from internet
+
+
+
+----------------------------------------------------
+String = VisibleCharacter { VisibleCharacter } Newline;
+VisibleCharacter = Unicode | Others | Alphanum | Escaped |
+Escaped = Backslash Special;
+Unicode = "&" Alphanum Alphanum Alphanum Alphanum ";";
+Alphanum = ( Alphabet | Digit );
+Alphabet = "A" | "B" | "C" | "D" | "E" | "F" | "G" | "H" | "I" | "J" |
+            "K" | "L" | "M" | "N" | "O" | "P" | "Q" | "R" | "S" | "T" |
+            "U" | "V" | "W" | "X" | "Y" | "Z" | "a" | "b" | "c" | "d" |
+            "e" | "f" | "g" | "h" | "i" | "j" | "k" | "l" | "m" | "n" |
+            "o" | "p" | "q" | "r" | "s" | "t" | "u" | "v" | "w" | "x" |
+            "y" | "z";
+Number = NonZeroDigit { Digit };
+NonZeroDigit = "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9";
+Digit = "0" | NonZeroDigit;
+
+
+
+! Este es un titulo
+{
+# Hola
+
+asdasdasd 
+asdasdasdasd
+Spacedas
+das
+dasasd
+}
+
+--- 
+
+! Este es un titulo 2
+{
+# Hola
+
+}
+--- 
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+! La Historia del Futbol
+
+{
++ display:flex; flex-direction:column; justify-content:center; text-align:center; background-color:antiquewhite; border-radius:20px; padding: 1rem;
+# Origenes del Futbol
+### Inglaterra h3
+
+%https://futboln.com/wp-content/uploads/2023/02/La-Breve-Historia-Del-Futbol-1024x576.jpeg
+
+El futbol moderno se origino en el siglo XIX en Inglaterra. Surgio de juegos similares practicados en diferentes partes del mundo a lo largo de la historia. En 1863, se fundo la Football Association en Inglaterra, estableciendo las primeras reglas del juego. Desde entonces, el futbol se ha convertido en el deporte mas popular del mundo.
+}
+
+***
+
+! Equipos Legendarios
+{
++ display:flex; flex-direction:column; justify-content:center; text-align:center; background-color:antiquewhite; border-radius:15px; padding:1rem;
+# Grandes Equipos
+
+%https://www.elcomercio.com/wp-content/uploads/2024/04/realmadrid-1.jpg
+
+El futbol ha visto la creacion de muchos equipos legendarios a lo largo de los anos. Equipos como el Barcelona, el Real Madrid, el Manchester United, y el AC Milan han dejado una marca imborrable en la historia del deporte. Sus hazanas en el campo y su legado perduran en la memoria de los aficionados al futbol.
+}
+
+***
+
+! Leyendas del Futbol
+{
++ display:flex; flex-direction:column; justify-content:center; text-align:center; background-color:antiquewhite; border-radius:15px; padding:1rem;
+# Iconos del Deporte
+<
+<<
+Futbolistas
+Goles
+Balones
+Clubes Destacados
+Logros
+>>
+<<
+Pele
+757
+3
+Santos, New York Cosmos
+3 Copas del Mundo
+>>
+<<
+Diego Maradona
+345
+1
+Barcelona, Napoli
+1 Copa del Mundo
+>>
+<<
+Lionel Messi
+767
+7
+Barcelona, Paris Saint-Germain
+6 Balones de Oro, 10 Ligas de Campeones de la UEFA
+>>
+<<
+Cristiano Ronaldo
+790
+5
+Manchester United, Real Madrid, Juventus
+5 Balones de Oro, 5 Ligas de Campeones de la UEFA
+>>
+>
+
+%https://revistactiva.com/wp-content/uploads/2023/06/leyendas-e1687800984559.jpg
+}
+
+***
+
+! Ronaldinho
+{
++ display:flex; flex-direction:column; justify-content:center; text-align:center; background-color:darkslategrey; color:white; padding: 1rem; border-radius:15px;
+## Jogo Bonito
+
+Ronaldinho, cuyo nombre completo es Ronaldo de Assis Moreira, es considerado uno de los jugadores de futbol mas talentosos de todos los tiempos. Su estilo de juego magico y creativo lo convirtio en una figura legendaria en el mundo del futbol. Ganador del Balon de Oro en 2005, Ronaldinho cautivo a los aficionados con sus habilidades excepcionales y su personalidad carismatica dentro y fuera del campo.
+%https://cdn.conmebol.com/wp-content/uploads/2018/01/roe_.jpg
+}
+
+***
